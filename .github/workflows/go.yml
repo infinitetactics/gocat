@@ -3,6 +3,9 @@
 
 name: Go
 
+permissions:
+  contents: write # Required to allow the release process to upload the binary
+
 on:
   push:
     branches: [ "master" ]
